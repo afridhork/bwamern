@@ -1,7 +1,7 @@
 import React from "react";
 
 import Button from "elements/Button";
-import BrandIcon from "parts/iconText";
+import BrandIcon from "parts/IconText";
 
 export default function Header(props) {
 	const getNavLinkClass = (path) => {
@@ -25,7 +25,7 @@ export default function Header(props) {
 								</Button>
 							</li>
 							<li className={`nav-item ${getNavLinkClass("/stories")}`}>
-								<Button className='nav-link' type='link' href='/sories'>
+								<Button className='nav-link' type='link' href='/stories'>
 									stories
 								</Button>
 							</li>
